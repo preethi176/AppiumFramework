@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoke"/>	
+</run>	
+	
+</groups>
+	
+<listeners>
+<listener class-name="com.appium.TestUtils.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="End to end test framework">
+    <classes>
+      <class name="com.android.tests.TotalSumValidate"/>
+    </classes>	
+    </test>
+ 
+      <test thread-count="5" name="Error validations">
+    <classes>
+      <class name="com.android.tests.TestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

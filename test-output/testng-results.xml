@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T17:07:43 PST" name="Suite" finished-at="2024-02-29T17:08:58 PST" duration-ms="74743">
+    <groups>
+      <group name="Regression">
+        <method signature="TotalSumValidate.fillForm(java.util.HashMap)[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" name="fillForm" class="com.android.tests.TotalSumValidate"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TotalSumValidate.fillForm(java.util.HashMap)[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" name="fillForm" class="com.android.tests.TotalSumValidate"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-02-29T17:07:43 PST" name="End to end test framework" finished-at="2024-02-29T17:08:57 PST" duration-ms="74241">
+      <class name="com.android.tests.TotalSumValidate">
+        <test-method is-config="true" signature="StartAppiumService()[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" started-at="2024-02-29T17:07:43 PST" name="StartAppiumService" finished-at="2024-02-29T17:07:57 PST" duration-ms="13737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartAppiumService -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" started-at="2024-02-29T17:07:57 PST" name="preSetup" finished-at="2024-02-29T17:07:57 PST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" started-at="2024-02-29T17:07:57 PST" name="fillForm" description="test" data-provider="getTestData" finished-at="2024-02-29T17:08:30 PST" duration-ms="32440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Preethi, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" started-at="2024-02-29T17:08:30 PST" name="preSetup" finished-at="2024-02-29T17:08:30 PST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" started-at="2024-02-29T17:08:30 PST" name="fillForm" description="test" data-provider="getTestData" finished-at="2024-02-29T17:08:57 PST" duration-ms="26766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Gnani, country=Algeria, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.android.tests.TotalSumValidate@531f4093]" started-at="2024-02-29T17:08:57 PST" name="tearDown" finished-at="2024-02-29T17:08:57 PST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.android.tests.TotalSumValidate -->
+    </test> <!-- End to end test framework -->
+    <test started-at="2024-02-29T17:08:58 PST" name="Error validations" finished-at="2024-02-29T17:08:58 PST" duration-ms="1">
+    </test> <!-- Error validations -->
+  </suite> <!-- Suite -->
+</testng-results>
